@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styling.css">
+    <script src="https://kit.fontawesome.com/79bb25889e.js" crossorigin="anonymous"></script>
+    <title>Welcome to my kingdom</title>
+  </head>
+  <body data-spy="scroll" data-target="#navbarResponsive">
+    <!-- Home section -->
+    <div id="home">
+    <!-- navigation -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="index.html"><img src="img/new1.png" width="80" height="40"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"><span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+               <ul class="navbar-nav ml-auto">
+                   <li class="nav-item">
+                       <a class="nav-link" href="#home">Home</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#course">Course</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#portfolio">Portfolio</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#about">about</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#contact">Contact</a>
+                   </li>
+               </ul> 
+            </div>
+            
+        </nav>
+    <!-- navbar ends here -->
+
+    <!-- start image slider -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
+        <!-- carousel indicator -->
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1" ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2" ></li>
+        </ol>
+        <!-- ends here -->
+        <!-- Slide 1 -->
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active" style="background-image: url(img/computers.png);background-size: cover;">
+                <div class="carousel-caption text-center">
+                    <h1>Python developer</h1>
+                    <h3>Developing new web apps</h3>
+                    <a type="button" class="btn btn-outline-light btn-lg" href="#course">get started</a>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url(img/computers-2.png);background-size: cover;"></div>
+            <div class="carousel-item" style="background-image: url(img/computers-3.png);background-size: cover;"></div>
+        </div> 
+        <!-- end carousel inner -->
+    </div>
+    <!-- start of prev and start button -->
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </a>
+
+    <!-- ends here -->
+    <!-- end image slider -->
+    </div>
+    <!-- home ends here -->
+    
+    <div id="course" class="offset">
+        <div class="col-12 narrow text-center">
+            <h1>web development course</h1>
+            <p class="lead">Learning some bootstrap html5, css3 and javascript by making a simple website</p>
+            <a class="btn btn-secondary btn-md" href="#">Learn with me</a>
+        </div>
+    </div>
+    <!-- portfolio starts here -->
+    <div id="portfolio" class="offset">
+        <div class="jumbotron container-fluid">
+            <h3 class="heading text-center">Portfolio</h3>
+            <div class="heading-underline"></div>
+        <!-- images -->
+        <div class="row no-padding">
+             <div class="col-sm-4">
+                 <div class="portfolio">
+                     <a href="resume.pdf" target="_blank"><img src="img/portfolio/1.png" > </a>
+                 </div>
+             </div>
+             <div class="col-sm-4">
+                 <div class="portfolio">
+                     <a href="img/portfolio/2.png" target="_blank"><img src="img/portfolio/2.png"> </a>
+                 </div>
+             </div>
+             <div class="col-sm-4">
+                 <div class="portfolio">
+                     <a href="img/portfolio/3.png" target="_blank"><img src="img/portfolio/3.png"> </a>
+                 </div>
+             </div>
+             
+             
+        </div>
+        </div>
+    </div>
+    <!-- ends here -->
+
+    <!-- about section -->
+    <div id="about" class="offset">
+        <h3 class="heading text-center">About section</h3>
+        <div class="heading-underline"></div>
+       
+        <div class="card mb-3">
+             <div class="row padding">
+    <div class="col-md-4 correct">
+      <img id="myimage" src="my_photo.jpg" class="card-img center" alt="..." width="250" height="500">
+    </div>
+    <div class="col-md-8 ">
+      <div class="card-body text-center">
+        <h3 class="card-title">Brief description</h3>
+        <p class="card-text">Completed my primary education from Yuvashakti Model School, situated at New delhi.</p>
+        <p class="card-text">Completed my primary education from Rao pahlad singh sr sec school, situated at Mohindergarh (Haryana).</p>
+        <p class="card-text">Currently, in Btech final year and will be graduated till 2021.<br>Inderprastha Engineering college, Ghaziabad</p>
+        <p>Love python programming language and spent a lot of time on learning different things with python like automation using selenium and BS4, Django (python framework for web development), played a lot with opencv and many more different library.</p>
+        <p>Talking about web development pretty much familiar with Html5, Css3, Javascript, Bootsrap, Jquery as well.</p>
+        <p>Currently, working on final project "DROWSYNESS DETECTION SYSTEM".</p>
+      </div>
+    </div>
+</div>   
+        </div>   
+    </div>
+    <!-- ends here -->
+    <div id="contact" class="offset">
+        <h3 class="heading text-center">Contact</h3>
+        <div class="heading-underline"></div>
+        <footer>
+            <div class="row justify-content-center text-center">
+                <div class="col-md-5">
+                    <img src="img/1.gif" width="140">
+                    <p>“Never give up on what you really want to do. The person with big dreams is more powerful than one with all the facts.”<br>By Albert Einstein</p>
+                    <strong>Contact info</strong>
+
+                    <p><a href="tel:8383806917"><i class="fas fa-phone-alt"></i></a> <br><i class="far fa-envelope"></i> thakurgaurav497@gmail.com</p>
+                    <a href="https://www.facebook.com/gourav.thakur.315" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/in/gaurav-thakur-0ab861154" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/gaurav__tk" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/gaurav0497" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.hackerrank.com/thakurgaurav497" target="_blank"><i class="fab fa-hackerrank"></i></a>
+                </div>
+
+                <hr class="socket">
+                <div class="copy">&copy; Copyright-2020</div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  </body>
+</html>

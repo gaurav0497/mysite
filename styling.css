@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:400,700');
+body{
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+	color:#505962;
+}
+
+.offset:before {
+	height: 3.9rem;
+	margin-top: -3.9rem;
+	content: "";
+	display: block;
+}
+
+
+
+/*navbar*/
+.navbar{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .8rem;
+	letter-spacing: .1rem;
+	background:rgba(0,0,0,.6)!important;
+
+}
+
+.navbar-nav li {
+	padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color:white;
+	padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:#1ebba3;
+}
+
+/*slider*/
+.carousel-item{
+	height:100vh;
+}
+
+.carousel-caption{
+	position: absolute;
+	top:38%;
+	text-transform: uppercase;
+	overflow: hidden;
+}
+.carousel-caption h1{
+	font-size: 3rem;
+	font-weight: 700;
+	letter-spacing: .3rem;
+	text-shadow: .1rem .1rem .8rem black;
+	padding-bottom: 1rem;
+}
+.carousel-caption h3{
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+.btn-lg{
+	border-width: medium;
+}
+
+.narrow {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.btn-md {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.1rem;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #1EBBA3;
+  background-color: #1EBBA3;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+}
+
+/*portfolio*/
+.jumbotron{
+	border-radius: 0;
+	padding: 3rem 0 2rem;
+	margin-bottom: 0rem;
+
+}
+h3.heading{
+	font-size: 1.9rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 1.9rem;
+}
+.heading-underline{
+	width: 3rem;
+	height: .2rem;
+	background-color: #1EBBA3;
+	margin:0 auto 2rem;
+}
+/*port image*/
+
+.portfolio img{
+	max-width: 100%;
+	transition: transform .5s ease;
+}
+.row.no-padding [class*=col-]{
+     padding:0;
+}
+.portfolio img:hover{
+	transform: scale(1.1);
+	cursor: zoom-in;
+}
+.portfolio{
+	overflow: hidden;
+	
+}
+
+/*start of contact*/
+
+footer{
+	background-color: #010910;
+	color:white;
+	padding: 2rem 0 3rem;
+	margin-top: 3rem;
+}
+footer img{
+	height: 3rem;
+	margin:1.5rem 0;
+
+
+}
+footer a{
+   color: white;
+    font-size: 3rem;
+   margin:1.6rem .5rem 0 0;
+}
+
+footer a:hover{
+	color:#1EBBA3;
+}
+hr.socket{
+	border-top: .2rem solid #1EBBA3;
+	width: 100%;
+	height: 1rem;
+	padding-bottom: 0;
+
+}
+.copy{
+	text-transform: uppercase;
+	padding: 0;
+	margin:0;
+	font-size: 1.4rem;
+}
+#myimage{
+	border-radius: 50%;
+	border: 7px solid cadetblue;
+	margin-top: 4px;
+	margin-bottom: 2rem;
+}
+
+.card-body h3{
+	text-transform: uppercase;
+	font-size: 1.9rem;
+	margin-bottom: 2rem;
+}
+.card-title{
+	margin-top: 2rem;
+
+}
+
+@media screen and (max-width: 767px){
+	#myimage{
+		max-width:70%;
+		position: relative;
+		justify-content: center;
+		margin-bottom: 0.7rem;
+		margin-top: 1rem;
+		padding-bottom: 0;
+	}
+	.correct{
+		left:20%;
+		max-width: 80%;
+	}
+
+}
